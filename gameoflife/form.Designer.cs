@@ -1,6 +1,6 @@
 ﻿namespace gameoflife
 {
-    partial class Form1
+    partial class form
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // form
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(763, 473);
+            this.DoubleBuffered = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "form";
+            this.ShowIcon = false;
+            this.Text = "Game of Life";
+            this.Load += new System.EventHandler(this.form_Load);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.form_MouseMove);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
