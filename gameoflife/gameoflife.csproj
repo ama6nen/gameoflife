@@ -46,9 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomPanel.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="form.cs">
       <SubType>Form</SubType>
     </Compile>
